@@ -52,3 +52,5 @@ Trata-se de um projeto criacional que resolve o problema de criar objetos de pro
     1. O padrão Singleton implementa uma classe com o construtor privado, de modo que sua chamada interna controle a criação do objeto, garantindo que o cliente trabalhe sempre com a mesma instância. Isso é realizado através da criação de um método de criação estático que chama o construtor privado para instanciar o objeto (apenas na primeira vez) e o salva em um campo estático. Todas as chamadas subsequentes para esse método simplesmente retornam o objeto que já está em cache.
 
 ### Como rodar
+1. Para rodar o exemplo de Abstract Factory apenas entre na pasta com cd abstract-factory e rode no terminal 'python main.py'
+2. Para rodar o exemplo de Builder apenas entre na pasta com 'cd builder' e rode no terminal 'python main.py'
