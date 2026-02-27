@@ -18,3 +18,18 @@ Trata-se de um projeto criacional que resolve o problema de criar objetos de pro
 É um padrão criacional que permite a produção de famílias de objetos relacionados sem ter que especificar suas classes concretas.
 1. ***Quais problemas esse padrão resolve?***
 2. ***Como o padrão resolve esses problemas?***
+
+### Builder
+É um padrão criacional que 
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+
+### Prototype
+É um padrão criacional que 
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+
+### Singleton
+É um padrão criacional que 
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
