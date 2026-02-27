@@ -1,5 +1,5 @@
 # ==========================================
-# 1. O Produto (O objeto complexo)
+# 1. Produto
 # ==========================================
 class JobExtracao:
     def __init__(self):
@@ -24,7 +24,7 @@ class JobExtracao:
 
 
 # ==========================================
-# 2. O Builder
+# 2. Builder
 # ==========================================
 class JobExtracaoBuilder:
     def __init__(self):
@@ -35,7 +35,6 @@ class JobExtracaoBuilder:
         self._job = JobExtracao()
         return self
 
-    # O 'return self' em cada método é o segredo do Method Chaining!
     def set_origem(self, banco: str):
         self._job.banco_origem = banco
         return self
@@ -73,7 +72,7 @@ class JobExtracaoBuilder:
 
 
 # ==========================================
-# 3. O Cliente (A mágica acontecendo)
+# 3. Cliente
 # ==========================================
 if __name__ == "__main__":
     builder = JobExtracaoBuilder()
@@ -90,7 +89,6 @@ if __name__ == "__main__":
 
     # Exemplo 2: Construindo um Job complexo passo a passo
     print("Criando Job 2 (Complexo):")
-    # Podemos ir montando aos poucos, dependendo de lógicas do código (ex: if/else)
     builder.set_origem("MySQL_Legado")
     builder.add_tabela("cadastros_antigos")
     builder.add_tabela("auditoria_log")
