@@ -54,3 +54,43 @@ Trata-se de um projeto criacional que resolve o problema de criar objetos de pro
 ### Como rodar
 1. Para rodar o exemplo de Abstract Factory apenas entre na pasta com cd abstract-factory e rode no terminal 'python main.py'
 2. Para rodar o exemplo de Builder apenas entre na pasta com 'cd builder' e rode no terminal 'python main.py'
+
+</hr>
+
+## Padroes Estruturais
+Os padrões estruturais explicam como montar objetos e classes em estruturas maiores, mas ainda mantendo essas estruturas flexíveis e eficientes.
+
+### Adapter
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
+
+### Bridge
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
+
+### Composite
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
+
+### Decorator
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
+
+### Facade
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
+
+### Flyweight
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
+
+### Proxy
+1. ***Quais problemas esse padrão resolve?***
+2. ***Como o padrão resolve esses problemas?***
+3. ***Quais os passos / componentes para a implementação do padrão?***
