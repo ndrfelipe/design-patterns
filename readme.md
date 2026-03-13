@@ -75,7 +75,7 @@ Os padrões estruturais explicam como montar objetos e classes em estruturas mai
 3. ***Quais os passos / componentes para a implementação do padrão?***
     1. Cliente: contém a lógica de negócio do programa.
     2. Interface do cliente: descreve o protocolo que outras classes devem seguir para colaborar com o cliente.
-    3. Serviço (Adapter): A classe útil (geralmente de terceiros) que tem a interface incompatível.
+    3. Serviço (Adaptee): A classe útil (geralmente de terceiros) que tem a interface incompatível.
     4. Adaptador: Uma classe que implementa a interface do cliente e envolve o objeto do serviço.
 
 ### Bridge
